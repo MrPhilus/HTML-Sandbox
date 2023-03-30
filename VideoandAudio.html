@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Media/embedding: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      audio {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Basic audio embed</h1>
+
+    <audio controls>
+      <source
+        src="media/html_multimedia-and-embedding_tasks_media-embed_media_audio.mp3"
+        type="audio/mp3"
+      />
+      <p>
+        Download
+        <a
+          href="media/html_multimedia-and-embedding_tasks_media-embed_media_audio.mp3"
+          >MP3</a
+        >audio
+      </p>
+    </audio>
+    <h1>Basic Video Embed</h1>
+    <video controls width="720px" height="360px" muted>
+      <source src="media/video.mp4" type="video/mp4" />
+      <source
+        src="media/html_multimedia-and-embedding_tasks_media-embed_media_video.webm"
+        type="video/webm"
+      />
+      <track
+        kind="subtitles"
+        src="media/subtitles.vtt"
+        srclang="en"
+        label="English"
+      />
+    </video>
+    <h1>PDF Embedding</h1>
+    <object
+      data="media/mypdf.pdf"
+      type="application/pdf"
+      width="800px"
+      height="800px"
+    ></object>
+    <iframe
+      width="800"
+      height="600"
+      src="https://www.youtube.com/embed/ISr_KRTUauw"
+      title="Episode 7 Friday The 13th - Danny MacAskill&#39;s Back of the Postcard"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
