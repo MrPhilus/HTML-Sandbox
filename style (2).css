@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body{
+    font-family: 'Karla', sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+    height: 60vh;
+    width: 45%;
+    background-color: white;
+    margin: 100px;
+    border-radius: 10px;
+    box-shadow:  3px 5px 16px -3px rgba(0,0,0,0.75);
+}
+main > aside > section:first-of-type{
+    background-color: hsl(179, 62%, 43%);
+    width: 55%;
+    border-bottom-left-radius: 10px;
+
+}
+main > aside > section:last-of-type{
+    background-color: hsla(179, 62%, 43%, 0.774);
+    width: 55%;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1{
+    padding-left: 30px;
+    color: hsl(179, 62%, 43%);
+}
+main > h3{
+    padding-left: 30px;
+    color:  hsl(71, 73%, 54%);
+}
+main > p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(218, 22%, 67%);
+}
+aside{
+    display: flex;
+    box-sizing: border-box;
+    height: 54%;
+}
+section > h3{
+    color: white;
+    padding-left: 30px;
+}
+div > p{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 30px;
+    position: relative; bottom: 15px;
+}
+div > span{
+    color: hsla(203, 44%, 93%, 0.753);
+    display: flex;
+    justify-content: center;
+    position:relative; right:20px; bottom:80px;
+}
+.comment{
+    color: white;
+    padding-left: 30px;
+    position: relative; bottom: 80px;
+    font-weight: 700;
+}
+button{
+    width: 70%;
+    height: 50px;
+    position: relative; bottom: 65px; left: 35px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 3px 5px 16px -3px rgba(0,0,0,0.75);
+}
+li{
+    list-style: none;
+    color: hsla(203, 44%, 93%, 0.753);
+    position: relative; right: 10px;
+    line-height: 20px;
+}

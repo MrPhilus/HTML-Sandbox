@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+main {
+  display: flex;
+  font-family: 'Hanken Grotesk', sans-serif;
+  width: 60%;
+  box-shadow: -2px 6px 18px 0px rgba(46,43,233,0.25);
+  border-radius: 30px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 1440px;
+}
+p{
+  font-size: 18px;
+}
+main > section{
+  flex: 1;
+  padding: 20px;
+}
+main > section:first-of-type {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+}
+.top-result h4{
+  opacity: 0.6;
+  font-size: 22px;
+}
+.score-circle{
+  background-image: linear-gradient( hsl(256, 72%, 46%,1),
+  hsl(241, 72%, 46%,0));
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: auto;
+  /*padding-top: 40px;
+  box-sizing: border-box;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.score-circle > h1{
+  font-size: 70px;
+  margin: 0;
+  line-height: 85px;
+}
+.score-circle > p{
+  margin: 0;
+  opacity: 0.4;
+}
+.remark h3{
+  font-size: 25px;
+  margin: 0;
+}
+.remark{
+  width: 250px;
+  margin: auto;
+  margin-top: 30px;
+}
+.remark p{
+  opacity: 0.6;
+}
+main > section:last-of-type > h3 {
+font-size: 22px;
+font-weight: 500;
+}
+.summary-box{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
+.summary-box > div{
+  display: flex;
+  gap: 10px;
+}
+.reaction{
+  background-color:  hsl(0, 100%, 67%,0.1);
+  color:  hsl(0, 100%, 67%);
+}
+.memory{
+  background-color: hsl(39, 100%, 56%,0.1);
+  color: hsl(39, 100%, 56%);
+}
+.verbal{
+  background-color: hsl(166, 100%, 37%,0.1);
+  color: hsl(166, 100%, 37%);
+}
+.visual{
+  background-color: hsl(234, 85%, 45%,0.1);
+  color: hsl(234, 85%, 45%);
+}
+.summary-box > p{
+color: hsl(224, 30%, 27%);
+font-weight: 700;
+}
+.summary-box > p > span{
+  font-weight: 400;
+  opacity: 0.5;
+}
+button{
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  width: 90%;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 20px;
+}
